@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p #Name of directory 
+mkdir -p <NameOfDir> 
 
 sleep 3
 
@@ -16,7 +16,7 @@ else
     logname=$NAME
 
     #flag specific location of file
-    FLAG= #Insert File location 
+    FLAG= <FileLocation> 
 
       if [ ! -f $FLAG ];
         then
